@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blocky World</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- top nav -->
+  <header class="site-header">
+    <div class="logo">Blocky World</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#modes">Game Modes</a></li>
+        <li><a href="#crafting">Crafting</a></li>
+        <li><a href="#server">Server Info</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- hero -->
+  <section class="hero">
+    <div class="hero-block"></div>
+    <h1>Build Anything. Break Everything.</h1>
+    <p>A small survival server for people who like punching trees and building questionable houses.</p>
+    <a href="#server" class="btn">Join the Server</a>
+  </section>
+
+  <!-- game modes, laid out with flexbox -->
+  <section id="modes" class="modes">
+    <h2>Game Modes</h2>
+    <div class="mode-cards">
+
+      <div class="card">
+        <h3>Survival</h3>
+        <p>Mine, craft and try not to get blown up by a creeper on your first night.</p>
+      </div>
+
+      <div class="card featured">
+        <span class="tag">Popular</span>
+        <h3>Creative</h3>
+        <p>Unlimited blocks, no health bar, no rules. Build whatever you can imagine.</p>
+      </div>
+
+      <div class="card">
+        <h3>Hardcore</h3>
+        <p>One life. One world. Die once and you're watching, not playing.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- crafting table, laid out with grid -->
+  <section id="crafting" class="crafting">
+    <h2>Crafting Table</h2>
+    <p>This is roughly what it takes to craft a diamond pickaxe:</p>
+
+    <div class="crafting-grid">
+      <div class="slot empty"></div>
+      <div class="slot diamond">D</div>
+      <div class="slot empty"></div>
+      <div class="slot empty"></div>
+      <div class="slot stick">|</div>
+      <div class="slot empty"></div>
+      <div class="slot empty"></div>
+      <div class="slot stick">|</div>
+      <div class="slot empty"></div>
+    </div>
+  </section>
+
+  <!-- server info, box model + float example -->
+  <section id="server" class="server-info">
+    <h2>Server Info</h2>
+
+    <div class="info-box">IP<br>play.blockyworld.net</div>
+
+    <p>
+      The server runs the latest stable version and resets the map every few months so nobody's
+      old dirt hut becomes a permanent eyesore. Whitelisting is off, so anyone can hop in. There's
+      a small set of rules: no griefing, no lag machines, and no building right next to spawn if
+      you can help it. Other than that, do whatever you want with your blocks.
+    </p>
+  </section>
+
+  <footer class="site-footer">
+    <p>Made for fun while learning CSS. Not affiliated with Mojang or Microsoft.</p>
+  </footer>
+
+</body>
+</html>
